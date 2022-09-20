@@ -1,0 +1,24 @@
+{
+  "name": "test_airporting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Farosebastien/test_airporting.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Farosebastien/test_airporting/issues"
+  },
+  "homepage": "https://github.com/Farosebastien/test_airporting#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.2",
+    "file-system": "^2.2.2"
+  }
+}

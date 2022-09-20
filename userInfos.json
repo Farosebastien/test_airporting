@@ -1,0 +1,95 @@
+{
+  "access_token": {
+    "value": "2e0661c4aade887479d213941b2af7873be11330-7c3e638c-158c-497a-ba8c-2102872568c3",
+    "expires_at": "2022-09-20T18:20:37.319Z"
+  },
+  "items": [
+    {
+      "id": 6648847,
+      "status": 0,
+      "status_code_info": null,
+      "status_code_description": null,
+      "bank_id": 408,
+      "accounts": [
+        {
+          "id": 30179394,
+          "name": "Compte Crédit Immobilier",
+          "balance": 140200,
+          "status": 0,
+          "status_code_info": null,
+          "status_code_description": null,
+          "updated_at": "2022-04-22T14:53:00.200Z",
+          "type": "loan",
+          "currency_code": "EUR",
+          "iban": null
+        },
+        {
+          "id": 30179393,
+          "name": "Compte Titres",
+          "balance": 8700,
+          "status": 0,
+          "status_code_info": null,
+          "status_code_description": null,
+          "updated_at": "2022-04-22T14:52:59.192Z",
+          "type": "brokerage",
+          "currency_code": "EUR",
+          "iban": null
+        },
+        {
+          "id": 30179392,
+          "name": "Compte Épargne",
+          "balance": 6900,
+          "status": 0,
+          "status_code_info": null,
+          "status_code_description": null,
+          "updated_at": "2022-04-22T14:52:58.988Z",
+          "type": "savings",
+          "currency_code": "EUR",
+          "iban": null
+        },
+        {
+          "id": 30179391,
+          "name": "Compte Courant",
+          "balance": 1037,
+          "status": 0,
+          "status_code_info": null,
+          "status_code_description": null,
+          "updated_at": "2022-04-22T14:52:53.043Z",
+          "type": "checking",
+          "currency_code": "EUR",
+          "iban": "FR2517569000704129741793V21"
+        }
+      ]
+    }
+  ],
+  "transactions": [
+    {
+      "id": 38000784535997,
+      "clean_description": "Achat De Titres",
+      "bank_description": "ACHAT DE TITRES - 260422",
+      "amount": -1693,
+      "date": "2022-04-26",
+      "updated_at": "2022-04-22T14:53:00.048Z",
+      "currency_code": "EUR",
+      "is_deleted": false,
+      "category_id": 85,
+      "account_id": 30179393,
+      "is_future": true,
+      "show_client_side": true
+    },
+    {
+      "id": 38000784535885,
+      "clean_description": "Retraite",
+      "bank_description": "Retraite - 260422",
+      "amount": 1733,
+      "date": "2022-04-26",
+      "updated_at": "2022-04-22T14:52:58.930Z",
+      "currency_code": "EUR",
+      "is_deleted": false,
+      "category_id": 279,
+      "account_id": 30179391,
+      "is_future": true,
+      "show_client_side": true
+    }
+  ]
+}
