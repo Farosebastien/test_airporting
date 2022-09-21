@@ -17,8 +17,12 @@ Cloner à partir de ce [repository GIT](https://github.com/Farosebastien/test_ai
     * CLIENT_SECRET=""
     * BRIDGE_VERSION=""
 
-### Démarrage
+### Exécution
 
-Lancer la commande `npm index.js`.
+Lancer la commande `npm start`.
 
-Les informations récupérées sont automatiquement stockées dans le fichier userInfos.json
+Les informations récupérées sont automatiquement stockées dans le fichier `userInfos.json`.
+
+### Tests
+
+Lancer la commande `npm test` pour effectué les tests jest.
