@@ -13,7 +13,7 @@ describe("auth", function () {
         axios.mockClear();
     });
 
-    //fausse reponse
+    //fausse réponse
     const fakeResponse = {
         access_token: "fake_token",
         expires_at: "expiration_date",

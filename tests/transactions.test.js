@@ -13,7 +13,7 @@ describe("transactions", function () {
         axios.mockClear();
     });
 
-    //fausse reponse
+    //fausse réponse
     const fakeResponse = [
         {
             id: "transaction_id",

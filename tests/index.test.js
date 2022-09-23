@@ -1,4 +1,4 @@
-//simulation de l'implementation de getInfo sans les appels aux controllers
+//simulation de l'implémentation de getInfo sans les appels aux controllers
 function MockedGetinfo()  {
     //simulation du retour de l'appel à auth.js
     const mockedAuthInfo = {
@@ -39,7 +39,7 @@ function MockedGetinfo()  {
             bank_id: mockedItemsInfo[i].bank_id,
             accounts: []
         };
-        //stockage de chaque item mocké dans le tableau items dans l'objet des informations générales mockés
+        //stockage de chaque item mocké dans le tableau items dans l'objet des informations générales mockées
         fakeUserInfos.items.push(mockedItem);
         //simulation du retour de accounts.js pour chaque item mocké
         const mockedAccountsList = [
@@ -87,7 +87,7 @@ function MockedGetinfo()  {
         }
     ];
     for(let i = 0; i<mockedTransactionsList.length; i++) {
-        /*boucle qui pour chaque transaction mocké stocke les informations 
+        /*boucle qui pour chaque transaction mockée stocke les informations 
         dans l'objet des informations générales*/
         fakeUserInfos.transactions.push(mockedTransactionsList[i]);
     }

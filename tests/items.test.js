@@ -13,7 +13,7 @@ describe("items", function () {
         axios.mockClear();
     });
 
-    //fausse reponse
+    //fausse réponse
     const fakeResponse = {
         id: 22,
         status: 0,

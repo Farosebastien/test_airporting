@@ -25,4 +25,4 @@ Les informations récupérées sont automatiquement stockées dans le fichier `u
 
 ### Tests
 
-Lancer la commande `npm test` pour effectué les tests jest.
+Lancer la commande `npm test` pour effectuer les tests jest.

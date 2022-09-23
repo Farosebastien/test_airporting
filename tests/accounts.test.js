@@ -16,7 +16,7 @@ describe("accounts", function () {
     //faux paramètre itemId
     const fakeItemId = 123;
 
-    //fausse reponse
+    //fausse réponse
     const fakeResponse = [
         {
           id: "account_id",
